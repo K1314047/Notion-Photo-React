@@ -7,8 +7,6 @@
       "inputs": ["$TURBO_DEFAULT$", ".env*"],
       "outputs": [".next/**", "!.next/cache/**"],
       "env": [
-        "NOTION_API_KEY",
-        "NOTION_DATABASE_ID",
         "REDIS_URL",
         "REDIS_TOKEN",
         "NEXT_PUBLIC_SITE_URL"
