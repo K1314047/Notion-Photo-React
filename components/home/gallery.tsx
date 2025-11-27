@@ -12,7 +12,7 @@ export async function GallerySection() {
   });
 
   return (
-    <section className='mb-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
+    <section className='mb-10 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4'>
       {sortedPhotos.length > 0 ? (
         sortedPhotos.map((photo) => (
           <Link key={photo.id} href={`/${photo.slug}`} className='group block'>
