@@ -2,9 +2,9 @@ import { env } from '@/lib/env';
 
 export const config = {
   site: {
-    name: 'Notion Photo React',
-    description: 'A Notion Photo Gallery powered by Next.js',
-    author: 'Harry Yep',
+    name: 'Photo Shooting Tour',
+    description: 'Tourist Souvenir Photo',
+    author: 'G.Ark',
     url: env.NEXT_PUBLIC_SITE_URL,
   },
   home: {
@@ -13,11 +13,11 @@ export const config = {
         <p className='mb-2 font-medium text-muted-foreground text-sm'>More</p>
         <p className='text-muted-foreground text-sm'>
           Follow Harry Yep on{' '}
-          <a href='https://twitter.com/okisdev' className='text-foreground transition-colors hover:text-muted-foreground'>
+          <a href='https://twitter.com/ayig61' className='text-foreground transition-colors hover:text-muted-foreground'>
             Twitter
           </a>{' '}
           and{' '}
-          <a href='https://github.com/okisdev' className='text-foreground transition-colors hover:text-muted-foreground'>
+          <a href='https://github.com/k1314047' className='text-foreground transition-colors hover:text-muted-foreground'>
             GitHub
           </a>
           .
